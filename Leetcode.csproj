@@ -7,4 +7,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Part_2\" />
+    <Folder Include="Part_1\1_Arrays_Hashing\" />
+    <Folder Include="Part_1\3_Stack\" />
+    <Folder Include="Part_1\2_Two_Pointers\" />
+    <Folder Include="Part_1\4_Binary_Search\" />
+    <Folder Include="Part_1\5_Sliding_Window\" />
+    <Folder Include="Part_1\6_LinkedList\" />
+    <Folder Include="Part_1\7_Trees\" />
+    <Folder Include="Part_1\8_Tries\" />
+    <Folder Include="Part_1\9_Backtracking\" />
+    <Folder Include="Part_2\10_Bit_Manipulation\" />
+    <Folder Include="Part_2\11_Math_Geometry\" />
+    <Folder Include="Part_2\12_1D_Programming\" />
+    <Folder Include="Part_2\13_Greedy\" />
+    <Folder Include="Part_2\14_Intervals\" />
+    <Folder Include="Part_2\15_Heap_PriorityQueue\" />
+    <Folder Include="Part_2\16_Graphs\" />
+    <Folder Include="Part_2\17_2D_Programming\" />
+    <Folder Include="Part_1\" />
+  </ItemGroup>
+
 </Project>
