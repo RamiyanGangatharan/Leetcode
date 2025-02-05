@@ -175,7 +175,7 @@ Neetcode.io is a structured platform designed to help programmers systematically
 - Alien Dictionary
 - Cheapest Flights with K Stops
 
-### 18. 2D Dynamic Programming (DP)
+### 17. 2D Dynamic Programming (DP)
 - Unique Paths
 - Longest Common Subsequence
 - Best Time to Buy and Sell Stock with Cooldown
