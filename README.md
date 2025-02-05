@@ -7,6 +7,11 @@ Neetcode.io is a structured platform designed to help programmers systematically
 
 ### 1. Arrays & Hashing
 - Contains Duplicate
+	- Done on February 5th 2025 @ 1:30AM
+	- learned about hashsets and how they are better than a double for loop
+	- my original implementation was the double for loop and was time limited by leetcode
+
+
 - Valid Anagram
 - Two Sum
 - Group Anagram

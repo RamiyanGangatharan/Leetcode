@@ -1,4 +1,6 @@
-﻿class Program
+﻿using Leetcode.Part_1._1_Arrays_Hashing;
+
+class Program
 {
     /// <summary>
     /// Main menu of the program
@@ -43,6 +45,8 @@
     /// </summary>
     static void ArraysMenu()
     {
+        ContainsDuplicates cd = new ContainsDuplicates();
+
         while (true)
         {
             Console.Clear();
@@ -55,7 +59,11 @@
             string input = Console.ReadLine();
             switch (input)
             {
-                case "1": RunContainsDuplicate(); break;
+                case "1":
+                    int[] nums = { 1, 2, 3, 4, 2 };
+
+                    cd.RunContainsDuplicate(nums);
+                    break;
                 case "0": return;
                 default: Console.WriteLine("Invalid choice, try again."); break;
             }
@@ -63,16 +71,5 @@
             Console.WriteLine("\nPress any key to return to the Arrays menu...");
             Console.ReadKey();
         }
-    }
-
-    /// <summary>
-    /// Display method for the Contains Duplicate problem
-    /// </summary>
-    static void RunContainsDuplicate()
-    {
-        Console.Clear();
-        Console.WriteLine("Contains Duplicate Problem");
-        Console.WriteLine("==========================");
-        Console.WriteLine("----------- WIP ----------\n");
     }
 }
