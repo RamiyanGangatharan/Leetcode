@@ -154,7 +154,7 @@ Neetcode.io is a structured platform designed to help programmers systematically
 - Design Twitter
 - Find Median from Data Stream
 
-### 16. Graphs (Basic)
+### 16. Graphs 
 - Number of Islands
 - Max Area of Island
 - Clone Graph
@@ -168,8 +168,6 @@ Neetcode.io is a structured platform designed to help programmers systematically
 - Number of Connected Components in an Undirected Graph
 - Redundant Connection
 - Word Ladder
-
-### 17. Graphs (Advanced)
 - Network Delay Time
 - Reconstruct Itinerary
 - Minimum Cost to Connect All Points
