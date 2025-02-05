@@ -8,10 +8,21 @@
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("Leetcode Practice Menu");
+            Console.WriteLine(@" /$$       /$$$$$$$$ /$$$$$$$$ /$$$$$$$$ /$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$$$");
+            Console.WriteLine(@"| $$      | $$_____/| $$_____/|__  $$__//$$__  $$ /$$__  $$| $$__  $$| $$_____/");
+            Console.WriteLine(@"| $$      | $$      | $$         | $$  | $$  \__/| $$  \ $$| $$  \ $$| $$      ");
+            Console.WriteLine(@"| $$      | $$$$$   | $$$$$      | $$  | $$      | $$  | $$| $$  | $$| $$$$$   ");
+            Console.WriteLine(@"| $$      | $$__/   | $$__/      | $$  | $$      | $$  | $$| $$  | $$| $$__/   ");
+            Console.WriteLine(@"| $$      | $$      | $$         | $$  | $$    $$| $$  | $$| $$  | $$| $$      ");
+            Console.WriteLine(@"| $$$$$$$$| $$$$$$$$| $$$$$$$$   | $$  |  $$$$$$/|  $$$$$$/| $$$$$$$/| $$$$$$$$");
+            Console.WriteLine(@"|________/|________/|________/   |__/   \______/  \______/ |_______/ |________/");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("=======================");
-            Console.WriteLine("1. Arrays & Hashing");
-            Console.WriteLine("0. Exit");
+            Console.WriteLine("| 1. Arrays & Hashing |");
+            Console.WriteLine("| 0. Exit             |");
+            Console.WriteLine("=======================");
             Console.Write("Select a Directory: ");
 
             string input = Console.ReadLine();
