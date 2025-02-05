@@ -16,26 +16,23 @@
         /// <returns>True if a duplicate exists, otherwise false.</returns>
         public bool RunContainsDuplicate(int[] nums)
         {
+            HashSet<int> seen = new HashSet<int>();
+
             Console.Clear();
             Console.WriteLine("Contains Duplicate Problem");
             Console.WriteLine("==========================");
+            Console.Write("Dataset: " + string.Join(", ", nums) + "\n\n");
 
-            Console.Write("Dataset: ");
-            for (int i = 0; i < nums.Length; i++) { Console.Write(nums[i]); }
-
-            Console.WriteLine();
-
-            HashSet<int> seen = new HashSet<int>();
-            foreach (int number in nums)
-            {
-                if (seen.Contains(number))
-                {
-                    Console.WriteLine("There is a duplicate! " + "it is " + number);
+            
+            foreach (int number in nums) 
+            { 
+                if (!seen.Add(number)) 
+                { 
+                    Console.WriteLine($"There is a duplicate! It is {number}");
                     return true;
-                }
-                seen.Add(number);
+                } 
             }
-            Console.WriteLine("There are no duplicate values!");
+            Console.WriteLine("There are no duplicate values!"); 
             return false;
         }
     }

@@ -11,9 +11,15 @@ Neetcode.io is a structured platform designed to help programmers systematically
 	- learned about hashsets and how they are better than a double for loop
 	- my original implementation was the double for loop and was time limited by leetcode
 
-
 - Valid Anagram
+	- Done on February 5th 2025 @ 2:30AM
+	- was simpler than I anticipated as they literally have to have the same letters
+
 - Two Sum
+	- Done on February 5th 2025 @ 3:00AM
+	- Was the easiest on of them all so far, checking based off of indicies.
+
+
 - Group Anagram
 - Top K Frequent Elements
 - Encode and Decode Strings
