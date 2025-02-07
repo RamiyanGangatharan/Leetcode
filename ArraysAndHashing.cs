@@ -12,11 +12,6 @@
         {
             HashSet<int> seen = [];
 
-            Console.Clear();
-            Console.WriteLine("Contains Duplicate Problem");
-            Console.WriteLine("==========================");
-            Console.Write("Dataset: " + string.Join(", ", nums) + "\n\n");
-
             foreach (int number in nums)
             {
                 if (!seen.Add(number))
@@ -37,10 +32,7 @@
         /// <returns>True if t is an anagram of s, otherwise false.</returns>
         public bool IsAnagram(string s, string t)
         {
-            if (s.Length != t.Length)
-            {
-                return false;
-            }
+            if (s.Length != t.Length) { return false; }
 
             char[] sArr = s.ToLower().ToCharArray();
             char[] tArr = t.ToLower().ToCharArray();
@@ -62,10 +54,6 @@
         /// <returns>Array with the indices of the two numbers.</returns>
         public int[] TwoSum(int[] nums, int target)
         {
-            Console.Write("Array: ");
-            Console.WriteLine(string.Join(", ", nums));
-            Console.WriteLine($"Target: {target}\n");
-
             Dictionary<int, int> numIndex = [];
 
             for (int i = 0; i < nums.Length; i++)
@@ -97,10 +85,7 @@
                 Array.Sort(charArray);
                 string sortedStr = new(charArray);
 
-                if (!anagramGroups.ContainsKey(sortedStr))
-                {
-                    anagramGroups[sortedStr] = [];
-                }
+                if (!anagramGroups.ContainsKey(sortedStr)) { anagramGroups[sortedStr] = []; }
                 anagramGroups[sortedStr].Add(str);
             }
 
@@ -110,7 +95,7 @@
             return new List<IList<string>>(anagramGroups.Values);
         }
 
-        
+
 
         /// <summary>
         /// Finds the k most frequent elements in an array.
