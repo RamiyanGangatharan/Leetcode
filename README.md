@@ -21,6 +21,8 @@ Neetcode.io is a structured platform designed to help programmers systematically
 
 
 - Group Anagram
+	- Done on February 6th 2025
+	- Based off of Valid Anagram and was using a dictionary to analyze a collection of strings
 - Top K Frequent Elements
 - Encode and Decode Strings
 - Product of Array Except Self

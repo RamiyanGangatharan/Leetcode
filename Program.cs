@@ -48,6 +48,7 @@ class Program
         ContainsDuplicates cd = new ContainsDuplicates();
         ValidAnagram validAnagram = new ValidAnagram();
         II_Sum TwoSum = new II_Sum();
+        GroupAnagram groupAnagram = new GroupAnagram();
 
         while (true)
         {
@@ -57,6 +58,7 @@ class Program
             Console.WriteLine("1. Contains Duplicates");
             Console.WriteLine("2. Valid Anagram");
             Console.WriteLine("3. Two Sum");
+            Console.WriteLine("4. Group Anagram");
             Console.WriteLine("0. Back to Main Menu");
             Console.Write("Select a Program: ");
 
@@ -82,6 +84,10 @@ class Program
                     TwoSum.TwoSum(TwoSumArray, target);
                     break;
 
+                case "4":
+                    string[] anagram = { "eat", "tea", "tan", "ate", "nat", "bat" };
+                    groupAnagram.GroupAnagrams(anagram);
+                    break;
                 case "0": return;
                 default: Console.WriteLine("Invalid choice, try again."); break;
             }
